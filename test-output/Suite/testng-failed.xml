@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.focus.listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest"/>
+      <class name="com.focus.testcases.LoginPageTest"/>
+      <class name="com.focus.testcases.InventoryReportsTest"/>
+      <class name="com.focus.testcases.SanityFAReportsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforeMethodExecution"/>
+          <include name="generateReports"/>
+          <include name="intialiseReports"/>
+          <include name="openBrowser"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.URLBrowserTest -->
+      <class name="com.focus.testcases.LoginPageTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.LoginPageTest -->
+      <class name="com.focus.testcases.SanityFAReportsTest">
+        <methods>
+          <include name="checkCustomerStatementReportDateRangeasCurrentWeek"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasYearandOutputasExcelCSV"/>
+          <include name="checkProfitLossAnalyzeReportExportPDFOptionatUserAllOptionsST"/>
+          <include name="checkCustomerSummaryByDueDatewithFilterOptionincludeMonthlyAgeingChkBoxWithUserAllOptionsST"/>
+          <include name="checkTrailBalanceReportwithDateRangeasPreviousQuarterYear"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasNoneandOutputasEmail"/>
+          <include name="checkVendorSummeryVendorBillWiseSummaryReport"/>
+          <include name="checkTrailBalanceAnalyzeReportExportPDFOption"/>
+          <include name="checkTrialBalanceFormatasPlainandDisplayColasMonthandOutputasScreen"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasNoneandOutputasPrintDraft"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasQuarterandOutputasFilePath"/>
+          <include name="checkCustomisationOptionINPurchasesGroupedByDepartmentReport"/>
+          <include name="checkProfitLossReportwithtakingfilterOptionasNotEqualTo"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasQuarterandOutputasPrintDraft"/>
+          <include name="checkReceavibleAndPayableReport"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasQuarterandOutputasEmail"/>
+          <include name="checkTrialBalanaceFormatasVerticalDisplayColasNoneandOutputasExcel"/>
+          <include name="checkCustomerStatementReportDateRangeasPreviousWeek"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasMonthandOutputasFilePath"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasMonthandOutputasPrinter"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasNoneandOutputasPrinter"/>
+          <include name="checkFinanacialLedgerReportwithDateRangeasCurrentFinancialYear"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasMonthandOutputasGraph"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasYearandOutputasFilePath"/>
+          <include name="checkFinancialLedgerPrintasStatementofAccountChkBox"/>
+          <include name="checkTrialBalanaceFormatasHorizontalDisplayColasQuarterandOutputasExcel"/>
+          <include name="checkVendorSummeryVendorSummaryAgeingByDueDateReport"/>
+          <include name="checkFinancialLedgerDisplayMaturedPDCChkBox"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasNoneandOutputasGraph"/>
+          <include name="checkTrialBalanaceFormatasVerticalDisplayColasMonthandOutputasExcel"/>
+          <include name="checkCustomerStatementReportDateRangeasCurrentMonth"/>
+          <include name="checkTrialBalanceFormatasHorizontalandDisplayColasQuarterandOutputasScreen"/>
+          <include name="checkProfitLossAnalyzeReportExportPDFOption"/>
+          <include name="checkCustomizationAndPrintOptionInRecevibleAndPayableReport"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasNoneandOutputasExcelCSV"/>
+          <include name="checkFinanacialLedgerReportanalyzeExportCSV"/>
+          <include name="checkFinancialLedgerIgnoreConvertedPDCChkBox"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasMonthandOutputasExcelCSV"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasYearandOutputasGraph"/>
+          <include name="checkProfitLossAnalyzeOption"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasMonthandOutputasExcelCSV"/>
+          <include name="checkFinancialLedgerWithPrintAccountIndexChkBox"/>
+          <include name="checkFinanacialLedgerReportwithDateRangeasPreviousQuarterYear"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasNoneandOutputasEmail"/>
+          <include name="checkTradePayableGroupinVendorAgeingSummaryReport"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasQuarterandOutputasPrinter"/>
+          <include name="checkProfitLossAnalyzeOptionatUserAllOptionsST"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasNoneandOutputasPrinter"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasNoneandOutputasPrintDraft"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasYearandOutputasPrintDraft"/>
+          <include name="checkProfitAndLossReport"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasNoneandOutputasExcelCSV"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasMonthandOutputasPrintDraft"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasMonthandOutputasGraph"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkTrialBalanaceFormatasHorizontalDisplayColasYearandOutputasExcel"/>
+          <include name="checkProfitAndLossReportwithFilterOption"/>
+          <include name="checkCustomerStatementReport"/>
+          <include name="checkTrialBalanceFormatasVerticalandDisplayColasNoneandOutputasScreen"/>
+          <include name="checkTrialBalanaceFormatasHorizontalDisplayColasQuarterandOutputasExcelCSV"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasYearandOutputasEmail"/>
+          <include name="checkFinalAccountsSchedulesReport"/>
+          <include name="checkBalanceSheetAnalyzeReportExportPDFOption"/>
+          <include name="checkBalanceSheetAnalyzeOption"/>
+          <include name="checkFinancialLedgerDisplayUnrelizedProfitLossChkBox"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasMonthandOutputasEmail"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasQuarterandOutputasGraph"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasMonthandOutputasFilePath"/>
+          <include name="checkTrialBalanceFormatasVerticalandDisplayColasMonthandOutputasScreen"/>
+          <include name="checkTrialBalanaceFormatasPlainDisplayColasNoneandOutputasExcel"/>
+          <include name="checkVendorDetailsVendorDetailsAgeingByDueDateReport"/>
+          <include name="checkFinanacialLedgerReportanalyze"/>
+          <include name="checkTrialBalanceFormatasHorizontalDisplayColasYearandOutputasPrinter"/>
+          <include name="checkTrailBalanceAnalyzeOption"/>
+          <include name="checkTrailBalanceReportwithDateRangeasCurrentFinancialYear"/>
+          <include name="checkTrailBalanceAnalyzeReportExportPDFOptionWithUserAllOptionsST"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasMonthandOutputasPrintDraft"/>
+          <include name="checkBalanceSheetReportwithFilterOptionatUserAllOptionsST"/>
+          <include name="checkProfitAndLossReportwithFilterOptionatUserAllOptionsST"/>
+          <include name="checkBalanceSheetReportwithFilterOption"/>
+          <include name="checkBalanceSheetAnalyzeOptionatUserAllOptionsST"/>
+          <include name="checkAddingLevelFieldsunderCustomization"/>
+          <include name="checkFinanacialLedgerReportwithDateRangeasPreviousWeek"/>
+          <include name="checkTrialBalanaceFormatasPlainDisplayColasMonthandOutputasExcel"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasMonthandOutputasEmail"/>
+          <include name="checkTrialBalanceFormatasVerticalDisplayColasNoneandOutputasFilePath"/>
+          <include name="checkTrailBalanceAnalyzeReportExportExcelOption"/>
+          <include name="CheckPrintAndCustomiseOptionnInvendorDetailsVendorDetailsAgeingByDueDateReport"/>
+          <include name="checkCustomerStatementReportDateRangeasCurrentYear"/>
+          <include name="checkVatAuditFileReportOptions"/>
+          <include name="checkTrailBalanceReportwithDateRangeasPreviousWeek"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasMonthandOutputasPrinter"/>
+          <include name="checkCustomerStatementReportDateRangeasPreviousQuarter"/>
+          <include name="checkCustomerDueDateAnalysisReport"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasNoneandOutputasFilePath"/>
+          <include name="CheckPrintAndCustomiseOptionnInVendorDetailsVendorAgeingDetailsReport"/>
+          <include name="checkVendorDetailsVendorOverdueAnalysisReport"/>
+          <include name="checkBalanceSheetAnalyzeReportExportPDFOptionatUserAllOptionsST"/>
+          <include name="checkTrialBalanceFormatasPlainDisplayColasNoneandOutputasGraph"/>
+          <include name="checkFinancialLedgerFreshPageforEachAccountChkBox"/>
+          <include name="checkTrialBalanceFormatasHorizontalandDisplayColasYearandOutputasScreen"/>
+          <include name="checkCustomerStatementReportDateRangeasCurrentQuarter"/>
+          <include name="checkTrialBalanceFormatasPlainandDisplayColasNoneandOutputasScreen"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SanityFAReportsTest -->
+      <class name="com.focus.testcases.InventoryReportsTest">
+        <methods>
+          <include name="checkAgeingAnalysisByBinReportBackTrackOption"/>
+          <include name="checkStockBalanceByWarehouseReportBackTrackOption"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkStockAnalysisByBatchReportFilterOption"/>
+          <include name="checkActualConsumptionReport"/>
+          <include name="checkNegativeBatchListReport"/>
+          <include name="checkPeakAndLowBalancesReportWithFilterOption"/>
+          <include name="checkStockReservationRegisterReport"/>
+          <include name="checkStockAgeingAnalysisReportWithBackTrackOptions"/>
+          <include name="checkGeneralLedgerandInventoryMismatchReport"/>
+          <include name="checkStockMovementReportBackTrackOption"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.InventoryReportsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,23 @@
+,Automation Company : 08/10/2020 5:43 PM
+,Trial balance
+,Department Name = DUBAI
+, [ AsOnDate to 04/01/2023 ]
+,,Base
+Particulars,Debit,Credit
+ASSETS,620.00,
+Current Assets,620.00,
+Cash & bank,100.00,
+Bank,100.00,
+Accounts Receivable,520.00,
+Customer A,520.00,
+REVENUE,,620.00
+SALES,,620.00
+Sales - Computers,,620.00
+COGS POSTING ACC,363.42,
+BR COGS ACC INV,,18.75
+FIFO COGS ACC INV,,8.33
+WA COGS ACC INV,,96.34
+STD RATE COGS ACC INV,,120.00
+SR COGS POSTING ACC,,120.00
+Grand Total,983.42,983.42
+Grand Total,3826.84,3206.84

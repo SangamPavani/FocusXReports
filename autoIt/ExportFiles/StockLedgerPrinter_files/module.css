@@ -1,0 +1,104 @@
+
+.moduleField
+{
+    height: 34px;
+    border-radius: 0 !important;
+    padding-left: 2px;
+    margin-bottom: 1px;
+}
+
+.uppercase
+{
+    text-transform:uppercase;
+}
+
+.lowercase
+{
+    text-transform:lowercase;
+}
+
+.bannerText
+{
+    font-style:italic;
+    color:#C2C2C2;
+}
+
+.multiLine
+{
+    height:25px;
+    border:medium none;
+    padding: 5px 0px;
+    overflow: hidden;
+    resize: none;
+}
+
+/*.panel
+{
+    border-radius:5px 5px 5px 5px;
+    border:1px solid #DFDFDF;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+
+.panelHeader
+{
+    background-color:#DFDFDF;
+    *//*padding-bottom:3px;*//*
+}
+
+.panelBody
+{
+    *//*margin:10px;*//*
+    padding:5px;
+}*/
+
+/*.shadow
+{
+    _height: 1px;
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color = '#BCBCBC', Direction = 135, Strength = 8);
+    width: 98%;
+    height: 110%;
+    margin-left: 15px;
+}
+
+.shadow-content {
+    _position: relative;
+    background: #fff;
+    top: 5px;
+
+}*/
+
+.dateLabel
+{
+  color: #6AACDE;
+}
+
+.paddingRightFld
+{
+    padding-right: inherit;
+    padding-left: 2px !important;
+}
+
+@media (min-width: 768px) {
+    .paddingRightFld
+    {
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .paddingRightFld {
+        padding-right: 60px;
+    }
+}
+
+
+
+
+
+
+
+

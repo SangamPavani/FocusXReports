@@ -1,0 +1,12 @@
+,,,,,,Automation Company : 08/10/2020 5:43 PM
+,,,,,,Ledger of BR COGS ACC INV BR COGS ACC INV
+,,,,,, [ AsOnDate to 20/12/2022 ]
+,,,,,,Transaction,,,Local,,,Base
+Date,Voucher,Account,Debit,Credit,Balance,Dr (local),Cr (local),Balance (local),Dr (base),Cr (base),Balance (base),Currency
+BR COGS ACC INV BR COGS ACC INV,,,,,,,,,,,,
+20/12/2022,NDT57 : SU/IND/TEXT2,Vendor B,10.00,,10.00,0.70,,0.70,10.00,,10.00,Indian Rupees
+20/12/2022,NDT57 : SU/IND/TEXT2,Vendor B,20.00,,30.00,1.40,,2.10,20.00,,30.00,Indian Rupees
+20/12/2022,ExeStk : 2,EXCESS COGS POSTING ACC,10.00,,40.00,,,2.10,10.00,,40.00,Indian Rupees
+20/12/2022,NDT50 : 1,COGS POSTING ACC,,8.75,31.25,,0.61,1.49,,8.75,31.25,Indian Rupees
+20/12/2022,NDT50 : 7,COGS POSTING ACC,,10.00,21.25,,0.70,0.79,,10.00,21.25,Indian Rupees
+Total,,,40.00,18.75,21.25,2.10,1.31,0.79,40.00,18.75,21.25,

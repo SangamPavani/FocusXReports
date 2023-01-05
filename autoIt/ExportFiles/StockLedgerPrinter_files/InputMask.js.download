@@ -1,0 +1,31 @@
+/**
+ * Created by praveen on 17-04-2017.
+ */
+
+var inputMask = new function()
+{
+    //app.registerInstance("inputMask",this);
+    this.maskDateField = function(fldId,iFormat){
+
+
+        if(!iFormat)
+            iFormat=clAppBuffer.getDateFormat();
+
+        //alert(iFormat == Constants.DDMMYYYY)
+        var sDateFormat;
+        if(iFormat == Constants.DDMMYYYY){
+            sDateFormat= 'dd/mm/yyyy';
+        }else if(iFormat == Constants.MMDDYYYY) {
+            sDateFormat= 'mm/dd/yyyy';
+        }else if(iFormat == Constants.YYYYMMDD) {
+            sDateFormat= 'yyyy/mm/dd';
+        }
+            $('#'+fldId).inputmask({
+                dateFormat: sDateFormat,
+                changeMonth: true,
+                changeYear: true,
+                placeholder:sDateFormat
+            }).inputmask(sDateFormat);
+
+    }
+}

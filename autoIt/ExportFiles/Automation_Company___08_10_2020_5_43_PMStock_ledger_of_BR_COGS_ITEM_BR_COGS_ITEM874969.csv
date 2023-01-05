@@ -1,0 +1,16 @@
+,,,,,,,Automation Company : 08/10/2020 5:43 PM
+,,,,,,,Stock ledger of BR COGS ITEM BR COGS ITEM
+,,,,,,, [ AsOnDate to 05/12/2022 ]
+,,,,Received,,Issued,Balance,Received,Issued,Balance,,,Alternate
+Date,Voucher,Received Quantity,Rate,Issued Quantity,Rate,Balance Quantity,Value,Value,Value,Avg Rate,Received Quantity,Issued Quantity,Balance Quantity
+BR COGS ITEM BR COGS ITEM,,,,,,,,,,,,,
+,Opening Balance,36.00,,,,36.00,,,20.00,0.56,,,
+05/12/2022,NDT57:SU/IND/TEXT2,12.00,0.88,,,48.00,10.50,,30.50,0.64,,,
+05/12/2022,NDT57:SU/IND/TEXT2,24.00,0.88,,,72.00,21.00,,51.50,0.72,,,
+05/12/2022,ExeStk:2,12.00,0.83,,,84.00,10.00,,61.50,0.73,,,
+05/12/2022,StkTrf:2,,,12.00,0.83,72.00,,10.00,51.50,0.72,,,
+05/12/2022,StkTrf:2,12.00,0.83,,,84.00,10.00,,61.50,0.73,,,
+05/12/2022,NDT50:1,,,10.00,0.88,74.00,,8.75,52.75,0.71,,,
+05/12/2022,NDT50:7,,,12.00,0.83,62.00,,10.00,42.75,0.69,,,
+,Reserved stock,,,12.00,,50.00,,,,,,,
+Total,,96.00,3.42,46.00,2.54,50.00,51.50,28.75,42.75,5.49,,,

@@ -1,0 +1,25 @@
+,,,,,,,,,,,,,,,Automation Company : 08/10/2020 5:43 PM
+,,,,,,,,,,,,,,,Trial balance
+,,,,,,,,,,,,,,, [ AsOnDate to 15/12/2022 ]
+,,,,,,,,,,,Base,,,,,,,,Transaction,,,,,,,,Local,Base,TransactionLocal
+Particulars,Code,Alias,Debit,Credit,Dr (Op bal),Cr (Op bal),Dr (YTD),Cr (YTD),Debits for the period,Credits for the period,Debit (orig),Credit (orig),Dr (Op bal orig) ,Cr (Op bal orig),Dr (YTD orig),Cr (YTD orig),Debits for the period,Credits for the period,Debit (local),Credit (local),Dr (Op bal local),Cr (Op bal local),Dr (YTD local),Cr (YTD local),Debits for the period,Credits for the period,Percentage (%),Percentage (orig),Percentage (local)
+ASSETS,HDFC,HDFC,544.29,HDFC,5.42,,,5.42,1.00,ASSETS,544.29,,,,,,,,,,,,,,,,,,
+   Current Assets,007,REVENUE,544.29,REVENUE,620.00,,,,12.00,Current Assets,544.29,620.00,,,,,,,,,,,,,,,,,
+      Cash & bank,071,SALES,30.29,    SALES,620.00,,,,121.00,Cash & bank,30.29,620.00,,,,,,,,,,,,,,,,,
+         Bank,071-001,Sales - Computers,30.29,        Sales - Computers,620.00,,30.29,620.00,121-001,Bank,,,,,,,,,,,,,,,,,,,
+Sub Total Cash & bank,,,,Sub Total SALES,,,30.29,620.00,,,,,,,,,,,,,,,,,,,,,
+Accounts Receivable,,,514.00,Sub Total REVENUE,,,,620.00,122.00,Accounts Receivable,514.00,,,,,,,,,,,,,,,,,,
+         Customer A,003,LIABILITIES,514.00,LIABILITIES,306.50,,514.00,,122-001,Customer A,,806.50,,,,,,,,,,,,,,,,,
+Sub Total Accounts Receivable,033,Trade Payable,,    Trade Payable,306.50,,514.00,,,,,806.50,,,,,,,,,,,,,,,,,
+Sub Total Current Assets,033-001,Vendor A,,        Vendor A,,,544.29,1500.00,,,,,,,,,,,,,,,,,,,,,
+Sub Total ASSETS,033-002,Vendor B,,        Vendor B,306.50,,544.29,306.50,,,,,,,,,,,,,,,,,,,,,
+CONTROL ACCOUNTS,,,,Sub Total Trade Payable,,,,806.50,CA,CONTROL ACCOUNTS,500.00,,,,,,,,,,,,,,,,,,
+Opening Balances Control A/C,,,,Sub Total LIABILITIES,,,500.00,806.50,OBC,Opening Balances Control A/C,,,,,,,,,,,,,,,,,,,
+Sub Total CONTROL ACCOUNTS,SR COGS POSTING ACC,SR COGS POSTING ACC,,SR COGS POSTING ACC,120.00,,500.00,120.00,,,,,,,,,,,,,,,,,,,,,
+COGS POSTING ACC,EXCESS COGS POSTING ACC,EXCESS COGS POSTING ACC,363.42,EXCESS COGS POSTING ACC,130.00,,363.42,130.00,COGS POSTING ACC,COGS POSTING ACC,,,,,,,,,,,,,,,,,,,
+BR COGS ACC INV,VAT ADVANCE PURCHASE,VAT ADVANCE PURCHASE,21.25,VAT ADVANCE PURCHASE,1.50,,21.25,1.50,BR COGS ACC INV,BR COGS ACC INV,,,,,,,,,,,,,,,,,,,
+FIFO COGS ACC INV,PURCHASE VARIANCE,PURCHASE VARIANCE,31.67,PURCHASE VARIANCE,510.00,,31.67,510.00,FIFO COGS ACC INV,FIFO COGS ACC INV,,,,,,,,,,,,,,,,,,,
+WA COGS ACC INV,,,223.66,,,,223.66,,WA COGS ACC INV,WA COGS ACC INV,,,,,,,,,,,,,,,,,,,
+STD RATE COGS ACC INV,,,490.00,,,,490.00,,STD RATE COGS ACC INV,STD RATE COGS ACC INV,,,,,,,,,,,,,,,,,,,
+VAT INPUT,,,19.13,,,,19.13,,VAT INPUT,VAT INPUT,,,,,,,,,,,,,,,,,,,
+Grand Total,,,1693.42,,1693.42,,2193.42,2193.42,,,,,,,,,,,,,,,,,,,,,

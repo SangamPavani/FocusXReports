@@ -1,0 +1,33 @@
+,Automation Company : 08/10/2020 5:43 PM
+,Trial balance
+, [ AsOnDate to 21/12/2022 ]
+,,Base
+Particulars,Debit,Credit
+HDFC,,5.42
+ASSETS,544.29,
+Current Assets,544.29,
+Cash & bank,30.29,
+Bank,30.29,
+Accounts Receivable,514.00,
+Customer A,514.00,
+CONTROL ACCOUNTS,,
+Opening Balances Control A/C,,
+REVENUE,,620.00
+SALES,,620.00
+Sales - Computers,,620.00
+LIABILITIES,,306.50
+Trade Payable,,306.50
+Vendor A,,
+Vendor B,,306.50
+COGS POSTING ACC,363.42,
+BR COGS ACC INV,21.25,
+FIFO COGS ACC INV,31.67,
+WA COGS ACC INV,223.66,
+STD RATE COGS ACC INV,490.00,
+SR COGS POSTING ACC,,120.00
+EXCESS COGS POSTING ACC,,130.00
+VAT ADVANCE PURCHASE,,1.50
+PURCHASE VARIANCE,,510.00
+VAT INPUT,19.13,
+Grand Total,1693.42,1693.42
+Grand Total,5019.71,5239.84
